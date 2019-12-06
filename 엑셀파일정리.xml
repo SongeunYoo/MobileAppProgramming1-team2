@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<restaurant>
+		<num>1</num>
+		<name>일심추어탕</name>
+		<location>대구 북구 산격로9길 24-1</location>
+		<price>7700</price>
+		<kind>한식</kind>
+		<count>5</count>
+	</restaurant>
+	<restaurant>
+		<num>2</num>
+		<name>대흥명가</name>
+		<location>대구 수성구 월드컵로6길 33</location>
+		<price>9090</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>3</num>
+		<name>김태근 한방돼지갈비</name>
+		<location>대구 수성구 달구벌대로 3213</location>
+		<price>24500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>4</num>
+		<name>황장군</name>
+		<location>대구 수성구 달구벌대로 2354-1</location>
+		<price>11500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>5</num>
+		<name>부선회초밥</name>
+		<location>대구 수성구 무학로 117</location>
+		<price>23250</price>
+		<kind>일식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>6</num>
+		<name>시골부뚜막</name>
+		<location>대구 수성구 달구벌대로641길 7</location>
+		<price>27142</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>7</num>
+		<name>온돌방</name>
+		<location>대구 중구 동성로12길 72-9</location>
+		<price>27857</price>
+		<kind>한식</kind>
+		<count>21</count>
+	</restaurant>
+	<restaurant>
+		<num>8</num>
+		<name>자금성</name>
+		<location>대구 수성구 동대구로 127</location>
+		<price>20000</price>
+		<kind>중식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>9</num>
+		<name>삼천궁식당</name>
+		<location>대구 수성구 동대구로 293</location>
+		<price>20000</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>10</num>
+		<name>부자돼지국밥</name>
+		<location>대구 북구 산격로 33-2</location>
+		<price>9400</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>11</num>
+		<name>와쇼쿠록기</name>
+		<location>대구 수성구 청솔로 22길 13-1</location>
+		<price>24545</price>
+		<kind>일식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>12</num>
+		<name>참생고기식당</name>
+		<location>대구 북구 고성북로 35-8</location>
+		<price>21454</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>13</num>
+		<name>송정가든</name>
+		<location>대구 북구 산격로 18</location>
+		<price>18000</price>
+		<kind>한식</kind>
+		<count>7</count>
+	</restaurant>
+	<restaurant>
+		<num>14</num>
+		<name>미성복어</name>
+		<location>대구 수성구 들안로 87</location>
+		<price>5000</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>15</num>
+		<name>황태골</name>
+		<location>대구 북구 산격로 13</location>
+		<price>9333</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>16</num>
+		<name>명성식육식당</name>
+		<location>대구 서구 통학로40길 70</location>
+		<price>16666</price>
+		<kind>한식</kind>
+		<count>9</count>
+	</restaurant>
+	<restaurant>
+		<num>17</num>
+		<name>용두방천</name>
+		<location>대구 남구 이천로 152</location>
+		<price>12166</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>18</num>
+		<name>이천홍두깨칼국수</name>
+		<location>대구 남구 이천로32길 7-9</location>
+		<price>9916</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>19</num>
+		<name>맥향식당</name>
+		<location>대구광역시 중구 공평로 102-15</location>
+		<price>10256</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>20</num>
+		<name>햇빛칼국수</name>
+		<location>대구 중구 경상감영길 297-12</location>
+		<price>20000</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>21</num>
+		<name>대명관</name>
+		<location>대구 중구 경상감영길 291</location>
+		<price>28571</price>
+		<kind>중식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>22</num>
+		<name>삼영식당</name>
+		<location>대구광역시 동구 갓바위로 246</location>
+		<price>21875</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>23</num>
+		<name>본가회</name>
+		<location>대구 달서구 이곡동로 32</location>
+		<price>16391</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>24</num>
+		<name>예원</name>
+		<location>대구 동구 해동로 49-1</location>
+		<price>27222</price>
+		<kind>중식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>25</num>
+		<name>미송정</name>
+		<location>대구 동구 동호로 174</location>
+		<price>45000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>26</num>
+		<name>동인삼계탕</name>
+		<location>대구 중구 공평로20길 13</location>
+		<price>19166</price>
+		<kind>한식</kind>
+		<count>10</count>
+	</restaurant>
+	<restaurant>
+		<num>27</num>
+		<name>상주식당</name>
+		<location>대구 중구 국채보상로 598-1</location>
+		<price>12764</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>28</num>
+		<name>참진가명가</name>
+		<location>대구 달성군 가창면 가창로 176길 22</location>
+		<price>15500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>29</num>
+		<name>부창생갈비</name>
+		<location>대구 중구 국채보상로 492-10</location>
+		<price>25846</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>30</num>
+		<name>산들마을 침산점</name>
+		<location>대구 북구 중앙대로 600</location>
+		<price>19200</price>
+		<kind>한식</kind>
+		<count>5</count>
+	</restaurant>
+	<restaurant>
+		<num>31</num>
+		<name>용지봉식당</name>
+		<location>대구 수성구 들안로 9</location>
+		<price>19130</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>32</num>
+		<name>산 한정식</name>
+		<location>대구 중구 남성로 53-1</location>
+		<price>21233</price>
+		<kind>한식</kind>
+		<count>6</count>
+	</restaurant>
+	<restaurant>
+		<num>33</num>
+		<name>만리장성</name>
+		<location>대구 중구 명륜로 168</location>
+		<price>16800</price>
+		<kind>중식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>34</num>
+		<name>금강매운탕</name>
+		<location>대구 수성구 청솔로12길 43</location>
+		<price>19500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>35</num>
+		<name>하촌식당</name>
+		<location>대구 남구 이천동 388-20</location>
+		<price>28181</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>36</num>
+		<name>은행나무식당</name>
+		<location>대구 달성군 가창면 우록2길 7</location>
+		<price>9833</price>
+		<kind>한식</kind>
+		<count>8</count>
+	</restaurant>
+	<restaurant>
+		<num>37</num>
+		<name>인화반점</name>
+		<location>대구 수성구 국채보상로 914</location>
+		<price>29000</price>
+		<kind>중식</kind>
+		<count>5</count>
+	</restaurant>
+	<restaurant>
+		<num>38</num>
+		<name>파티온</name>
+		<location>대구 북구 호암로 51</location>
+		<price>16285</price>
+		<kind>양식</kind>
+		<count>4</count>
+	</restaurant>
+	<restaurant>
+		<num>39</num>
+		<name>연화정</name>
+		<location>대구 북구 유통단지로8길 21-19</location>
+		<price>13533</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>40</num>
+		<name>아트리움</name>
+		<location>대구 수성구 국채보상로186길 151</location>
+		<price>27000</price>
+		<kind>양식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>41</num>
+		<name>민수사(침산점)</name>
+		<location>대구 북구 옥산로 108</location>
+		<price>18000</price>
+		<kind>일식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>42</num>
+		<name>단아정</name>
+		<location>대구 동구 서촌로 91</location>
+		<price>6806</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>43</num>
+		<name>동보성</name>
+		<location>대구 수성구 달구벌대로 2483</location>
+		<price>27666</price>
+		<kind>중식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>44</num>
+		<name>식도락</name>
+		<location>대구 수성구 동대구로74길 55</location>
+		<price>17500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>45</num>
+		<name>녹용식당</name>
+		<location>대구 동구 동부로22길 91-7</location>
+		<price>24250</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>46</num>
+		<name>장원식당</name>
+		<location>대구 중구 태평로 256</location>
+		<price>20000</price>
+		<kind>한식</kind>
+		<count>20</count>
+	</restaurant>
+	<restaurant>
+		<num>47</num>
+		<name>남원골추어탕</name>
+		<location>대구 북구 대구체육관로 45</location>
+		<price>19000</price>
+		<kind>한식</kind>
+		<count>4</count>
+	</restaurant>
+	<restaurant>
+		<num>48</num>
+		<name>화원소곰탕</name>
+		<location>대구 북구 칠성시장로 7길 212-2</location>
+		<price>14000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>49</num>
+		<name>청통한우</name>
+		<location>대구 수성구 무학로21길 56</location>
+		<price>13395</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>50</num>
+		<name>백록식당</name>
+		<location>대구 중구 진골목길 26-1</location>
+		<price>12500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>51</num>
+		<name>석기정</name>
+		<location>대구 수성구 상동 322-1</location>
+		<price>5900</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>52</num>
+		<name>바스코</name>
+		<location>대구 중구 동성로4길 100</location>
+		<price>11250</price>
+		<kind>양식</kind>
+		<count>5</count>
+	</restaurant>
+	<restaurant>
+		<num>53</num>
+		<name>이향</name>
+		<location>대구 수성구 월드컵로5안길 17-3</location>
+		<price>13333</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>54</num>
+		<name>울진참가자미</name>
+		<location>대구 수성구 들안로 297</location>
+		<price>18000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>55</num>
+		<name>동문복어식당</name>
+		<location>대구 중구 국채보상로 696-4</location>
+		<price>13800</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>56</num>
+		<name>경복궁</name>
+		<location>대구 수성구 용학로 134</location>
+		<price>27000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>57</num>
+		<name>꿈을 요리하다 닭한끼</name>
+		<location>대구 북구 호암로 51 파크몰 B동 2동 1호</location>
+		<price>20000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>58</num>
+		<name>부림산채</name>
+		<location>대구 수성구 국채보상로 949</location>
+		<price>30000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>59</num>
+		<name>채다올김밥</name>
+		<location>대구 중구 동덕로 119</location>
+		<price>3020</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>60</num>
+		<name>통영충무김밥</name>
+		<location>대구 수성구 상화로 142</location>
+		<price>9400</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>61</num>
+		<name>엄마손칼국수</name>
+		<location>대구 중구 공평로20길 11-4</location>
+		<price>7000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>62</num>
+		<name>감포은정복어</name>
+		<location>대구 수성구 국채보상로180길 13</location>
+		<price>16100</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>63</num>
+		<name>현대옥 경대병원점</name>
+		<location>대구 중구 동덕로 141</location>
+		<price>8000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>64</num>
+		<name>푸른회식당</name>
+		<location>대구 서구 달구벌대로375길 14-1</location>
+		<price>14000</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>65</num>
+		<name>원조현풍박소선할매곰탕</name>
+		<location>대구 달성군 현풍읍 현풍중앙로 56-1</location>
+		<price>17481</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>66</num>
+		<name>황소식당</name>
+		<location>대구 중구 중앙대로 434-6</location>
+		<price>26538</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>67</num>
+		<name>동심각</name>
+		<location>대구 수성구 동대구로 194-7</location>
+		<price>29750</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>68</num>
+		<name>수목은갈치</name>
+		<location>대구 수성구 지범로 23-1</location>
+		<price>22125</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>69</num>
+		<name>손중헌원조논메기매운탕</name>
+		<location>대구 달성군 다사읍 부곡2길 7-9</location>
+		<price>9500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>70</num>
+		<name>식도관한우숯불갈비</name>
+		<location>대구 중구 공평로20길 31</location>
+		<price>25000</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>71</num>
+		<name>용궁복어</name>
+		<location>대구 남구 현충로 46</location>
+		<price>14500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>72</num>
+		<name>순한우한마당</name>
+		<location>대구 동구 해동로 9</location>
+		<price>18000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>73</num>
+		<name>어물전</name>
+		<location>대구 수성구 용학로 127</location>
+		<price>14000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>74</num>
+		<name>해금강</name>
+		<location>대구 중구 국채보상로 567-1</location>
+		<price>18750</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>75</num>
+		<name>해밥달밥 남구점</name>
+		<location>대구 남구 두류공원로 62</location>
+		<price>18000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>76</num>
+		<name>유가정</name>
+		<location>대구 북구 대구체육관로 47-1</location>
+		<price>9000</price>
+		<kind>한식</kind>
+		<count>8</count>
+	</restaurant>
+	<restaurant>
+		<num>77</num>
+		<name>동해복어</name>
+		<location>대구 북구 검단로 8-5</location>
+		<price>10000</price>
+		<kind>한식</kind>
+		<count>5</count>
+	</restaurant>
+	<restaurant>
+		<num>78</num>
+		<name>감미정</name>
+		<location>대구 중구 공평로20길 38</location>
+		<price>9000</price>
+		<kind>한식</kind>
+		<count>11</count>
+	</restaurant>
+	<restaurant>
+		<num>79</num>
+		<name>자갈치회타운</name>
+		<location>대구 중구 동덕로36길 15</location>
+		<price>15400</price>
+		<kind>한식</kind>
+		<count>5</count>
+	</restaurant>
+	<restaurant>
+		<num>80</num>
+		<name>청정한우</name>
+		<location>대구 동구 동대구로 442-1</location>
+		<price>31185</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>81</num>
+		<name>성원정</name>
+		<location>대구 중구 공평로20길 11</location>
+		<price>9333</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>82</num>
+		<name>다한</name>
+		<location>대구 수성구 범어동 792-35</location>
+		<price>19500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>83</num>
+		<name>더 스퀘어</name>
+		<location>대구 중구 국채보상로 611 노보텔 대구 8층</location>
+		<price>13808</price>
+		<kind>양식</kind>
+		<count>5</count>
+	</restaurant>
+	<restaurant>
+		<num>84</num>
+		<name>국화정원</name>
+		<location>대구 중구 동덕로 127</location>
+		<price>23200</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>85</num>
+		<name>둥굴관</name>
+		<location>대구 중구 공평로20길 56</location>
+		<price>18666</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>86</num>
+		<name>황금진족</name>
+		<location>대구 중구 공평로8길 37</location>
+		<price>13200</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>87</num>
+		<name>종로숯불갈비</name>
+		<location>대구 중구 종로 26</location>
+		<price>29625</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>88</num>
+		<name>청주식당 마늘칼국수</name>
+		<location>대구 중구 공평로20길 5-6</location>
+		<price>8875</price>
+		<kind>한식</kind>
+		<count>11</count>
+	</restaurant>
+	<restaurant>
+		<num>89</num>
+		<name>정동진</name>
+		<location>대구 북구 대불서길 63</location>
+		<price>23384</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>90</num>
+		<name>중화반점</name>
+		<location>대구 중구 중앙대로 406-12</location>
+		<price>28600</price>
+		<kind>중식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>91</num>
+		<name>핀투대박양념오뎅</name>
+		<location>대구 중구 동성로6길 15</location>
+		<price>9500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>92</num>
+		<name>벙글벙글</name>
+		<location>대구 중구 동덕로36길 9-12</location>
+		<price>19000</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>93</num>
+		<name>보고싶다</name>
+		<location>대구 중구 공평로 23-1</location>
+		<price>9660</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>94</num>
+		<name>보길도낙지</name>
+		<location>대구 남구 이천로 29</location>
+		<price>12333</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>95</num>
+		<name>어전</name>
+		<location>대구 수성구 달구벌대로480길 27</location>
+		<price>22000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>96</num>
+		<name>삼수장어</name>
+		<location>대구 수성구 무학로 123</location>
+		<price>24500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>97</num>
+		<name>안동국시</name>
+		<location>대구 수성구 희망로 216</location>
+		<price>24800</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>98</num>
+		<name>키스더쿡</name>
+		<location>대구 중구 공평로 49</location>
+		<price>16300</price>
+		<kind>양식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>99</num>
+		<name>자연식당</name>
+		<location>대구 중구 국채보상로102길 7</location>
+		<price>13285</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>100</num>
+		<name>청맥식당</name>
+		<location> 대구시 중구 삼덕동 3가 218-1</location>
+		<price>22500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>101</num>
+		<name>7전8기 8번식당</name>
+		<location>대구 북구 옥산로 88</location>
+		<price>18000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>102</num>
+		<name>기와집</name>
+		<location>대구 동구 팔공로27길 11-4</location>
+		<price>10000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>103</num>
+		<name>용궁삼합일</name>
+		<location>대구 수성구 범어천로 10</location>
+		<price>23777</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>104</num>
+		<name>똥집나이트</name>
+		<location>대구 동구 아양로7길 12 신암뜨란채</location>
+		<price>14150</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>105</num>
+		<name>국수명가</name>
+		<location>대구 중구 동덕로 110-1</location>
+		<price>14666</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>106</num>
+		<name>비원</name>
+		<location>대구 수성구 청수로 73</location>
+		<price>22692</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>107</num>
+		<name>숨쉬는 순두부</name>
+		<location>대구 중구 동덕로 104</location>
+		<price>10375</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>108</num>
+		<name>벽돌집</name>
+		<location>대구 중구 동덕로 14길 13</location>
+		<price>20526</price>
+		<kind>한식</kind>
+		<count>4</count>
+	</restaurant>
+	<restaurant>
+		<num>109</num>
+		<name>해궁찜 해물나라</name>
+		<location>대구 수성구 범어천로 61-1</location>
+		<price>15000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>110</num>
+		<name>한농부의 풀꽃밥상</name>
+		<location>대구 수성구 들안로 57</location>
+		<price>17666</price>
+		<kind>한식</kind>
+		<count>12</count>
+	</restaurant>
+	<restaurant>
+		<num>111</num>
+		<name>개정</name>
+		<location>대구 중구 동성로3길 52</location>
+		<price>8666</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>112</num>
+		<name>왕건이집</name>
+		<location>대구 중구 경상감영길 170</location>
+		<price>12000</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>113</num>
+		<name>포보스</name>
+		<location>대구 동구 동대구로 454</location>
+		<price>6080</price>
+		<kind>아시안</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>114</num>
+		<name>하늘타리</name>
+		<location>대구 수성구 천을로 11</location>
+		<price>15000</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>115</num>
+		<name>뜨돈</name>
+		<location>대구 중구 달구벌대로 2109-30</location>
+		<price>10800</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>116</num>
+		<name>무주구천동메기매운탕</name>
+		<location>대구 북구 서변로 23-8</location>
+		<price>13428</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>117</num>
+		<name>참숯창고 식육식당</name>
+		<location>대구 북구 산격로9길 26</location>
+		<price>24615</price>
+		<kind>한식</kind>
+		<count>4</count>
+	</restaurant>
+	<restaurant>
+		<num>118</num>
+		<name>마당갈비</name>
+		<location>대구 중구 약령길 33-40</location>
+		<price>23866</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>119</num>
+		<name>해송복어</name>
+		<location>대구 북구 유통단지로8길 21-29</location>
+		<price>18000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>120</num>
+		<name>청담동</name>
+		<location>대구 수성구 만촌로8길 25</location>
+		<price>28666</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>121</num>
+		<name>하양추어탕</name>
+		<location>대구 북구 산격로9길 12</location>
+		<price>6250</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>122</num>
+		<name>성주숯불갈비</name>
+		<location>대구 중구 국채보상로 99길 22</location>
+		<price>23800</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>123</num>
+		<name>향촌순두부</name>
+		<location>대구 중구 북성로 104-22</location>
+		<price>10444</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>124</num>
+		<name>라꾸엔</name>
+		<location>대구 수성구 명덕로 450</location>
+		<price>25000</price>
+		<kind>일식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>125</num>
+		<name>낙지이야기</name>
+		<location>대구 동구 동부로 76</location>
+		<price>17750</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>126</num>
+		<name>음악이 있는 찌짐집</name>
+		<location>대구 수성구 청호로67길 76-9</location>
+		<price>9400</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>127</num>
+		<name>소데스네</name>
+		<location>대구 중구 동성로4길 73 1층</location>
+		<price>56400</price>
+		<kind>양식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>128</num>
+		<name>하츠</name>
+		<location>대구 수성구 들안로73길 5</location>
+		<price>21100</price>
+		<kind>일식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>129</num>
+		<name>정하용선산곱창</name>
+		<location>대구 중구 동덕로36길 9-4</location>
+		<price>19500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>130</num>
+		<name>귀로</name>
+		<location>대구 중구 명륜로 126</location>
+		<price>16500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>131</num>
+		<name>읍내</name>
+		<location>대구 중구 공평동 81-7</location>
+		<price>9000</price>
+		<kind>한식</kind>
+		<count>6</count>
+	</restaurant>
+	<restaurant>
+		<num>132</num>
+		<name>고향왕소금구이</name>
+		<location>대구 북구 환성정길 35</location>
+		<price>26777</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>133</num>
+		<name>앞산골가마솥국밥</name>
+		<location>대구 남구 큰골길 138</location>
+		<price>15000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>134</num>
+		<name>비학산옻닭삼계탕</name>
+		<location>대구 북구 원대로19길 6</location>
+		<price>16000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>135</num>
+		<name>마산식당</name>
+		<location>대구 중구 경상감영1길 41</location>
+		<price>15500</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>136</num>
+		<name>보금신토불이</name>
+		<location>대구 동구 화랑로75길 57</location>
+		<price>10500</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>137</num>
+		<name>채담은</name>
+		<location>대구 수성구 노변로 75-4</location>
+		<price>7000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>138</num>
+		<name>상락식당</name>
+		<location>대구 수성구 동대구로74안길 2</location>
+		<price>12666</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>139</num>
+		<name>바르미스시</name>
+		<location>대구 동구 동부로 149 동대구환승터미널 3층</location>
+		<price>9125</price>
+		<kind>일식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>140</num>
+		<name>다전손칼국수</name>
+		<location>대구 수성구 지범로21길 15</location>
+		<price>21250</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>141</num>
+		<name>청해식당</name>
+		<location>대구 동구 효목로 26</location>
+		<price>13875</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>142</num>
+		<name>동해참가자미</name>
+		<location>대구 수성구 들안로 44</location>
+		<price>30000</price>
+		<kind>한식</kind>
+		<count>4</count>
+	</restaurant>
+	<restaurant>
+		<num>143</num>
+		<name>문경닭곰탕</name>
+		<location>대구 중구 경상감영길 117-7</location>
+		<price>20000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>144</num>
+		<name>놀부보쌈</name>
+		<location>대구 중구 국채보상로 655</location>
+		<price>9084</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>145</num>
+		<name>금와식당</name>
+		<location>대구 중구 서성로 3</location>
+		<price>12250</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>146</num>
+		<name>이수사</name>
+		<location>대구 동구 이노밸리로 322</location>
+		<price>21100</price>
+		<kind>일식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>147</num>
+		<name>몬스터즈 크래프터 비어</name>
+		<location>대구 중구 종로 45-4</location>
+		<price>19000</price>
+		<kind>양식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>148</num>
+		<name>다찌우마</name>
+		<location>대구 중구 국채보상로131길 18</location>
+		<price>16000</price>
+		<kind>일식</kind>
+		<count>5</count>
+	</restaurant>
+	<restaurant>
+		<num>149</num>
+		<name>벽강식당</name>
+		<location>대구 북구 침산남로 62</location>
+		<price>16000</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>150</num>
+		<name>감포일출횟집</name>
+		<location>대구 중구 중앙대로61길 12-7 </location>
+		<price>21867</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>151</num>
+		<name>금창수산</name>
+		<location>대구 동구 송라로 51</location>
+		<price>28000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>152</num>
+		<name>몽글몽글 구름순두부</name>
+		<location>대구 동구 파계로 497</location>
+		<price>16000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>153</num>
+		<name>낙영찜갈비</name>
+		<location>대구 중구 동덕로36길 9-17</location>
+		<price>30000</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>154</num>
+		<name>테이블스푼</name>
+		<location>대구 수성구 국채보상로 846</location>
+		<price>20970</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>155</num>
+		<name>고령촌돼지찌개</name>
+		<location>대구 남구 앞산순환로 440-1</location>
+		<price>25600</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>156</num>
+		<name>칠성동할매콩국수</name>
+		<location>대구 북구 침산남로 40</location>
+		<price>17000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>157</num>
+		<name>고미정</name>
+		<location>대구 수성구 달구벌대로 2469</location>
+		<price>25833</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>158</num>
+		<name>양지뜰</name>
+		<location>대구 수성구 동대구로14길 11</location>
+		<price>27000</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>159</num>
+		<name>대륙초밥</name>
+		<location>대구 수성구 들안로 99</location>
+		<price>26538</price>
+		<kind>일식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>160</num>
+		<name>나지무</name>
+		<location>대구 중구 대봉로 194-5</location>
+		<price>22562</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>161</num>
+		<name>만보가</name>
+		<location>대구 수성구 동대구로 279</location>
+		<price>24260</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>162</num>
+		<name>변재연한우</name>
+		<location>대구 수성구 희망로 170 (황금동) 1층</location>
+		<price>20800</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>163</num>
+		<name>화성식당</name>
+		<location>대구 북구 연암로 60-1</location>
+		<price>8785</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>164</num>
+		<name>약전한방삼계탕</name>
+		<location>대구 중구 달구벌대로415길 56</location>
+		<price>17428</price>
+		<kind>한식</kind>
+		<count>3</count>
+	</restaurant>
+	<restaurant>
+		<num>165</num>
+		<name>혜성한정식</name>
+		<location>대구 중구 진골목길 26</location>
+		<price>22800</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>166</num>
+		<name>이박사해물갈비찜</name>
+		<location>대구 남구 중앙대로31길 9-11</location>
+		<price>11933</price>
+		<kind>한식</kind>
+		<count>1</count>
+	</restaurant>
+	<restaurant>
+		<num>167</num>
+		<name>수페부엌</name>
+		<location>대구 중구 동덕로30길 45</location>
+		<price>20812</price>
+		<kind>양식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>168</num>
+		<name>부산안면옥</name>
+		<location>대구 중구 국채보상로125길 4</location>
+		<price>19750</price>
+		<kind>한식</kind>
+		<count>2</count>
+	</restaurant>
+	<restaurant>
+		<num>169</num>
+		<name>르네상스 스카이뷰</name>
+		<location>대구 북구 대학로 80</location>
+		<price>15700</price>
+		<kind>양식</kind>
+		<count>1</count>
+	</restaurant>
+</root>
