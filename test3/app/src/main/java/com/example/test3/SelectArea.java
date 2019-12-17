@@ -16,7 +16,7 @@ public class SelectArea extends AppCompatActivity {
     }
 
     public void selectArea (View view) {
-        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
         finish();
     }
