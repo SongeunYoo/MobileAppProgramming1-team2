@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">rankPage</string>
+    <string name="app_name">대구의 PICK</string>
     <string name="tab_text_1">전체</string>
     <string name="tab_text_2">한식</string>
     <string name="tab_text_3">양식</string>

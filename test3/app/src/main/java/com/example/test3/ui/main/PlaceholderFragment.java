@@ -52,6 +52,7 @@ public class PlaceholderFragment extends Fragment {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
+                // 여기서 각 view별로 구분해서 출력할 수 있음
             }
         });
         return root;

@@ -12,7 +12,7 @@ public class PageViewModel extends ViewModel {
     private LiveData<String> mText = Transformations.map(mIndex, new Function<Integer, String>() {
         @Override
         public String apply(Integer input) {
-            switch(input) {
+            /*switch(input) {
                 case 1:
                     return "전체 음식점 목록을 출력합니다";
                 case 2:
@@ -24,7 +24,8 @@ public class PageViewModel extends ViewModel {
                 case 5:
                     return "기타 음식점 목록을 출력합니다";
                     default: return "목록을 출력합니다";
-            }
+            }*/
+            return "";
         }
     });
 
