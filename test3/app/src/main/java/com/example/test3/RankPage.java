@@ -11,6 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -41,17 +42,53 @@ public class RankPage extends AppCompatActivity {
     CustomAdapter customAdapter;
     ArrayList<restaurantItem> list;
 
+    private static Toolbar toolbar;
+    private static ViewPager viewPager;
+    private static TabLayout tabLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = findViewById(R.id.view_pager);
+        viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
+        tabLayout = findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());//setting current selected item over viewpager
+                switch (tab.getPosition()) {
+                    case 0:
+                        Log.e("TAG","TAB1");
+                        break;
+                    case 1:
+                        Log.e("TAG","TAB2");
+                        break;
+                    case 2:
+                        Log.e("TAG","TAB3");
+                        break;
+                    case 3:
+                        Log.e("TAG","TAB1");
+                        break;
+                    case 4:
+                        Log.e("TAG","TAB2");
+                        break;
+                }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+            }
+        });
 
         list = setXMLlist();
         customAdapter = new CustomAdapter(this, 0, list);
@@ -86,7 +123,7 @@ public class RankPage extends AppCompatActivity {
     }
 
     public void setListView(String kind, int order) {
-
+        List newList = new ArrayList();
         customAdapter = new CustomAdapter(this, 0, list);
         listView.setAdapter(customAdapter);
     }
@@ -165,7 +202,7 @@ public class RankPage extends AppCompatActivity {
     }
 
     //리스트 클래스
-    private class restaurantItem {
+    public class restaurantItem {
         public int num, price, count;
         public String name, location, kind;
 
@@ -249,7 +286,7 @@ public class RankPage extends AppCompatActivity {
     }
 
     //커스텀 리스트 리스너
-    private class CustomAdapter extends ArrayAdapter<restaurantItem> {
+    public class CustomAdapter extends ArrayAdapter<restaurantItem> {
         private LayoutInflater mLayoutInflater;
 
         public CustomAdapter(Context context, int resource, List<restaurantItem> objects) {

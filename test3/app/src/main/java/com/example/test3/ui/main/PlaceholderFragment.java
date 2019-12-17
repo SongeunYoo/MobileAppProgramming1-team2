@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -13,6 +14,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.test3.R;
+import com.example.test3.RankPage;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -51,8 +53,7 @@ public class PlaceholderFragment extends Fragment {
         pageViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
-                // 여기서 각 view별로 구분해서 출력할 수 있음
+
             }
         });
         return root;
