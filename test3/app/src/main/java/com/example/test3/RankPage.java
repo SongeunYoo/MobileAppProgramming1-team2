@@ -22,6 +22,8 @@ import android.widget.Toast;
 import com.example.test3.ui.main.SectionsPagerAdapter;
 
 import java.io.IOException;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import android.content.Context;
@@ -93,7 +95,7 @@ public class RankPage extends AppCompatActivity {
         list = setXMLlist();
         customAdapter = new CustomAdapter(this, 0, list);
         listView = (ListView) findViewById(R.id.ListView);
-        setListView("", 0);
+        orderedListView(0);
 
         final Geocoder geocoder = new Geocoder(this);
         listView.setAdapter(customAdapter);
@@ -122,8 +124,53 @@ public class RankPage extends AppCompatActivity {
         });
     }
 
-    public void setListView(String kind, int order) {
-        List newList = new ArrayList();
+    public void orderedListView(int order) {
+
+        List selectedList = new ArrayList();
+        switch(order) {
+            case 0:
+                Collections.sort(list, new Comparator<restaurantItem>() {
+                    @Override
+                    public int compare(restaurantItem r1, restaurantItem r2) {
+                        if (r1.get_count() < r2.get_count()) {
+                            return -1;
+                        } else if (r1.get_count() > r2.get_count()) {
+                            return 1;
+                        }
+                        return 0;
+                    }
+                });
+                break;
+
+            case 1:
+                Collections.sort(list, new Comparator<restaurantItem>() {
+                    @Override
+                    public int compare(restaurantItem r1, restaurantItem r2) {
+                        if (r1.get_price() < r2.get_price()) {
+                            return -1;
+                        } else if (r1.get_price() > r2.get_price()) {
+                            return 1;
+                        }
+                        return 0;
+                    }
+                });
+                break;
+
+            case 2:
+                Collections.sort(list, new Comparator<restaurantItem>() {
+                    @Override
+                    public int compare(restaurantItem r1, restaurantItem r2) {
+                        if (r1.get_price() > r2.get_price()) {
+                            return -1;
+                        } else if (r1.get_price() < r2.get_price()) {
+                            return 1;
+                        }
+                        return 0;
+                    }
+                });
+                break;
+
+        }
         customAdapter = new CustomAdapter(this, 0, list);
         listView.setAdapter(customAdapter);
     }
@@ -145,18 +192,20 @@ public class RankPage extends AppCompatActivity {
         switch (id) {
             case R.id.rank:
                 Toast.makeText(this.getApplicationContext(), "랭킹순으로 정렬합니다.", Toast.LENGTH_SHORT).show();
-                setListView("",0);
+                orderedListView(0);
                 break;
 
             //추가로 listview 출력시킬 것 수정
 
             case R.id.cheap:
                 Toast.makeText(this.getApplicationContext(), "낮은 가격순으로 정렬합니다.", Toast.LENGTH_SHORT).show();
+                orderedListView(1);
                 break;
             //추가로 listview 출력시킬 것 수정
 
             case R.id.expensive:
                 Toast.makeText(this.getApplicationContext(), "높은 가격순으로 정렬합니다.", Toast.LENGTH_SHORT).show();
+                orderedListView(2);
                 break;
             //추가로 listview 출력시킬 것 수정
         }
@@ -213,10 +262,6 @@ public class RankPage extends AppCompatActivity {
             location = "위치";
             name = "이름";
             kind = "종류";
-        }
-
-        public int get_num() {
-            return num;
         }
 
         public int get_price() {
@@ -309,9 +354,9 @@ public class RankPage extends AppCompatActivity {
 
             // 데이터를 View의 각 Widget에 설정
             TextView name = (TextView) convertView.findViewById(R.id.name);
-            name.setText(String.format("이름 : %s", item.get_name()));
+            name.setText(String.format("%s", item.get_name()));
             TextView location = (TextView) convertView.findViewById(R.id.location);
-            location.setText(String.format("위치 : %s", item.get_location()));
+            location.setText(String.format("%s", item.get_location()));
             TextView price = (TextView) convertView.findViewById(R.id.price);
             price.setText(String.format("가격 : %d", item.get_price()));
             TextView kind = (TextView) convertView.findViewById(R.id.kind);

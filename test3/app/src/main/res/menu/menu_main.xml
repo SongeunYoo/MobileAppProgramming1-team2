@@ -20,9 +20,4 @@
         android:title="@string/order_expensive"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/nearest"
-        android:orderInCategory="100"
-        android:title="@string/order_nearest"
-        app:showAsAction="never" />
 </menu>
