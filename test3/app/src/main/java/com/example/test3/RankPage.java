@@ -38,11 +38,14 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.util.ArrayList;
 
+import static android.widget.Toast.LENGTH_SHORT;
+
 public class RankPage extends AppCompatActivity {
     String test = "";
     ListView listView;
     CustomAdapter customAdapter;
     ArrayList<restaurantItem> list;
+    ArrayList<restaurantItem> currentList;
 
     private static Toolbar toolbar;
     private static ViewPager viewPager;
@@ -59,6 +62,7 @@ public class RankPage extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+        Toast.makeText(this ,"", Toast.LENGTH_SHORT).show();
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -66,19 +70,19 @@ public class RankPage extends AppCompatActivity {
                 viewPager.setCurrentItem(tab.getPosition());//setting current selected item over viewpager
                 switch (tab.getPosition()) {
                     case 0:
-                        Log.e("TAG","TAB1");
+                        selectItem("전체");
                         break;
                     case 1:
-                        Log.e("TAG","TAB2");
+                        selectItem("한식");
                         break;
                     case 2:
-                        Log.e("TAG","TAB3");
+                        selectItem("양식");
                         break;
                     case 3:
-                        Log.e("TAG","TAB1");
+                        selectItem("중식");
                         break;
                     case 4:
-                        Log.e("TAG","TAB2");
+                        selectItem("기타");
                         break;
                 }
             }
@@ -95,6 +99,7 @@ public class RankPage extends AppCompatActivity {
         list = setXMLlist();
         customAdapter = new CustomAdapter(this, 0, list);
         listView = (ListView) findViewById(R.id.ListView);
+        currentList = list;
         orderedListView(0);
 
         final Geocoder geocoder = new Geocoder(this);
@@ -124,12 +129,37 @@ public class RankPage extends AppCompatActivity {
         });
     }
 
-    public void orderedListView(int order) {
+    public void selectItem(String kind) {
+        ArrayList<restaurantItem> newList = new ArrayList<restaurantItem>();
+        if (kind.equals("전체")) {
+            customAdapter = new CustomAdapter(this, 0, list);
+            listView.setAdapter(customAdapter);
+            currentList = newList;
+            return;
+        }
 
-        List selectedList = new ArrayList();
+        if (kind.equals("기타")) {
+            for(int i=0; i<list.size();i++)
+                if(list.get(i).get_kind().equals("일식") || list.get(i).get_kind().equals("아시안"))
+                    newList.add(list.get(i));
+            customAdapter = new CustomAdapter(this, 0, newList);
+            listView.setAdapter(customAdapter);
+            currentList = newList;
+            return;
+        }
+
+        for(int i=0; i<list.size();i++)
+            if(list.get(i).get_kind().equals(kind))
+                newList.add(list.get(i));
+        customAdapter = new CustomAdapter(this, 0, newList);
+        listView.setAdapter(customAdapter);
+        currentList = newList;
+        return;
+    }
+    public void orderedListView(int order) {
         switch(order) {
             case 0:
-                Collections.sort(list, new Comparator<restaurantItem>() {
+                Collections.sort(currentList, new Comparator<restaurantItem>() {
                     @Override
                     public int compare(restaurantItem r1, restaurantItem r2) {
                         if (r1.get_count() < r2.get_count()) {
@@ -143,7 +173,7 @@ public class RankPage extends AppCompatActivity {
                 break;
 
             case 1:
-                Collections.sort(list, new Comparator<restaurantItem>() {
+                Collections.sort(currentList, new Comparator<restaurantItem>() {
                     @Override
                     public int compare(restaurantItem r1, restaurantItem r2) {
                         if (r1.get_price() < r2.get_price()) {
@@ -157,7 +187,7 @@ public class RankPage extends AppCompatActivity {
                 break;
 
             case 2:
-                Collections.sort(list, new Comparator<restaurantItem>() {
+                Collections.sort(currentList, new Comparator<restaurantItem>() {
                     @Override
                     public int compare(restaurantItem r1, restaurantItem r2) {
                         if (r1.get_price() > r2.get_price()) {
@@ -171,7 +201,7 @@ public class RankPage extends AppCompatActivity {
                 break;
 
         }
-        customAdapter = new CustomAdapter(this, 0, list);
+        customAdapter = new CustomAdapter(this, 0, currentList);
         listView.setAdapter(customAdapter);
     }
 
@@ -191,23 +221,19 @@ public class RankPage extends AppCompatActivity {
 
         switch (id) {
             case R.id.rank:
-                Toast.makeText(this.getApplicationContext(), "랭킹순으로 정렬합니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this.getApplicationContext(), "랭킹순으로 정렬합니다.", LENGTH_SHORT).show();
                 orderedListView(0);
                 break;
 
-            //추가로 listview 출력시킬 것 수정
-
             case R.id.cheap:
-                Toast.makeText(this.getApplicationContext(), "낮은 가격순으로 정렬합니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this.getApplicationContext(), "낮은 가격순으로 정렬합니다.", LENGTH_SHORT).show();
                 orderedListView(1);
                 break;
-            //추가로 listview 출력시킬 것 수정
 
             case R.id.expensive:
-                Toast.makeText(this.getApplicationContext(), "높은 가격순으로 정렬합니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this.getApplicationContext(), "높은 가격순으로 정렬합니다.", LENGTH_SHORT).show();
                 orderedListView(2);
                 break;
-            //추가로 listview 출력시킬 것 수정
         }
 
         return super.onOptionsItemSelected(item);
@@ -358,7 +384,7 @@ public class RankPage extends AppCompatActivity {
             TextView location = (TextView) convertView.findViewById(R.id.location);
             location.setText(String.format("%s", item.get_location()));
             TextView price = (TextView) convertView.findViewById(R.id.price);
-            price.setText(String.format("가격 : %d", item.get_price()));
+            price.setText(String.format("1인 평균가 : %d", item.get_price()));
             TextView kind = (TextView) convertView.findViewById(R.id.kind);
             kind.setText(String.format("종류 : %s", item.get_kind()));
 
