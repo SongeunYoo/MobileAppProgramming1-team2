@@ -136,7 +136,7 @@ public class RankPage extends AppCompatActivity {
         if (kind.equals("전체")) {
             customAdapter = new CustomAdapter(this, 0, list);
             listView.setAdapter(customAdapter);
-            currentList = List;
+            currentList = list;
             return;
         }
 
