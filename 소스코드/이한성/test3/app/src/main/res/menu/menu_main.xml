@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test3.RankPage">
+    <item
+        android:id="@+id/rank"
+        android:orderInCategory="100"
+        android:title="@string/order_rank"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cheap"
+        android:orderInCategory="100"
+        android:title="@string/order_cheap"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/expensive"
+        android:orderInCategory="100"
+        android:title="@string/order_expensive"
+        app:showAsAction="never" />
+
+</menu>
