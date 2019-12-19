@@ -64,7 +64,6 @@ public class RankPage extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
-        Toast.makeText(this ,"", Toast.LENGTH_SHORT).show();
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -87,6 +86,7 @@ public class RankPage extends AppCompatActivity {
                         selectItem("기타");
                         break;
                 }
+                orderedListView(0);
             }
 
             @Override
