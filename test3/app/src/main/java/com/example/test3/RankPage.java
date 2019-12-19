@@ -164,9 +164,9 @@ public class RankPage extends AppCompatActivity {
                 Collections.sort(currentList, new Comparator<restaurantItem>() {
                     @Override
                     public int compare(restaurantItem r1, restaurantItem r2) {
-                        if (r1.get_count() < r2.get_count()) {
+                        if (r1.get_count() > r2.get_count()) {
                             return -1;
-                        } else if (r1.get_count() > r2.get_count()) {
+                        } else if (r1.get_count() < r2.get_count()) {
                             return 1;
                         }
                         return 0;
