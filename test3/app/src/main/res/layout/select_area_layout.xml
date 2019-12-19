@@ -102,6 +102,7 @@
         android:layout_width="match_parent"
         android:layout_height="59dp"
         android:layout_gravity="fill_horizontal"
+        android:background="#ffffff"
         app:srcCompat="@drawable/pick"
         tools:ignore="MissingConstraints" />
 
