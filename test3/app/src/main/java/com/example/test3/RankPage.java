@@ -2,6 +2,7 @@ package com.example.test3;
 import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -16,6 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -280,6 +282,7 @@ public class RankPage extends AppCompatActivity {
     public class restaurantItem {
         public int num, price, count;
         public String name, location, kind;
+        public String image_name = "default";
 
         public restaurantItem() {
             num = 0;
@@ -288,6 +291,9 @@ public class RankPage extends AppCompatActivity {
             location = "위치";
             name = "이름";
             kind = "종류";
+        }
+        public String get_image() {
+            return image_name;
         }
 
         public int get_price() {
@@ -308,6 +314,10 @@ public class RankPage extends AppCompatActivity {
 
         public String get_kind() {
             return kind;
+        }
+
+        public void set_image(String arg) {
+            image_name = arg;
         }
 
         public void set_num(int arg) {
